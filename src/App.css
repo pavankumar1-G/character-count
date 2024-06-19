@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.character-counter-app-container {
+  background-color: #ffffff;
+  margin: 40px;
+  box-shadow: 0px 4px 16px 0px #f2f1f1;
+  font-family: Roboto;
+  padding: 20px;
+}
+.character-counter-content-container {
+  display: flex;
+  align-items: center;
+}
+.no-view-image {
+  height: 300px;
+}
+.left-part-of-user-input-list {
+  width: 50vw;
+  min-height: 100vh;
+  background-color: #ffc533;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.right-part-of-user-input-counter-container {
+  width: 50vw;
+  background-color: #0f172a;
+  min-height: 100vh;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.heading-container {
+  background-color: #ffbf1f;
+  height: 30vh;
+  margin: 20px;
+  padding: 30px;
+  font-size: 24px;
+  color: #334155;
+}
+.no-user-input-view-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-input-list {
+  padding-left: 40px;
+  padding-top: 40px;
+  list-style-type: none;
+}
+.user-input {
+  font-size: 22px;
+  color: #272c47;
+  font-weight: bold;
+  margin: 15px;
+}
+.counter-heading {
+  font-size: 45px;
+  color: #ffbf1f;
+  text-align: center;
+  margin-top: 80px;
+}
+.user-input-and-add-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-input-elememt {
+  height: 45px;
+  width: 500px;
+  border: 1px solid #475569;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 18px;
+}
+.add-button {
+  height: 45px;
+  width: 100px;
+  margin-left: 5px;
+  background-color: #ffbf1f;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #272c47;
+  font-size: 16px;
+}
